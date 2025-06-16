@@ -1,0 +1,16 @@
+main {
+	padding: 64px;
+}
+
+.center {
+	text-align: center;
+}
+
+.headblock {
+	margin-bottom: 16px;
+}
+
+.headline {
+	font-size: 48px;
+	margin-bottom: 8px;
+}
