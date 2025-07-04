@@ -1,54 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<link rel="icon" href="/favicon.png" type="image/x-icon"/>
-		<title>supahaxxa</title>
-		<meta name="description" content="a collection of applications I implemented"/>
-		<link rel="stylesheet" type="text/css" href="/index.css"/>
-		<link rel="stylesheet" type="text/css" href="/fonts.css"/>
-	</head>
-	<body style="font-family: Poppins, sans-serif">
-		<main class="flex min-h-screen flex-col items-center p-8 sm:p-16 lg:p-24 gap-8">
-			<div class="text-center md:mb-8 mb-4">
-				<div class="text-5xl mb-2">supahaxxa</div>
-				<div>a collection of applications I implemented</div>
-			</div>
-			<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8 w-full max-w-screen-xl">
-				<a class="app flex flex-col p-4 border-2 border-black cursor-pointer" data-discover="true" href="/four0four.html">
-					<img src="/assets/sliding-puzzle.png" alt="Sliding Puzzle" class="w-full"/>
-					<div class="flex flex-col mt-3">
-						<div class="text-xl">Sliding Puzzle</div>
-						<div class="text-sm">under development</div>
-					</div>
-				</a>
-				<a class="app flex flex-col p-4 border-2 border-black cursor-pointer" data-discover="true" href="/four0four.html">
-					<img src="/assets/queens.png" alt="Queens" class="w-full"/>
-					<div class="flex flex-col mt-3">
-						<div class="text-xl">Queens</div>
-						<div class="text-sm">under development</div>
-					</div>
-				</a>
-			</div>
-			<footer class="flex items-center gap-4 mt-6">
-				<a href="https://app.daily.dev/supahaxxa" target="_blank">
-					<img alt="daily.dev" class="h-6 w-6" src="/assets/daily-dev.png"/>
-				</a>
-				<a href="https://www.facebook.com/fms000" target="_blank">
-					<img alt="Facebook" class="h-6 w-6" src="/assets/facebook.png"/>
-				</a>
-				<a href="https://github.com/supahaxxa" target="_blank">
-					<img alt="GitHub" class="h-6 w-6" src="/assets/github.png"/>
-				</a>
-				<a href="https://www.instagram.com/ferdous.shajib" target="_blank">
-					<img alt="Instagram" class="h-6 w-6" src="/assets/instagram.png"/>
-				</a>
-				<a href="https://www.linkedin.com/in/fmshajib" target="_blank">
-					<img alt="LinkedIn" class="h-6 w-6" src="/assets/linkedin.png"/>
-				</a>
-			</footer>
-		</main>
-		<div class="text-center">Design of this webpage is stolen from mewtru's site <a class="hyperlink" href="https://mewtru.com/">mewtru.com</a> . Sorry!😅</div>
-	</body>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="favicon.png" type="image/x-icon"/>
+	<title>supahaxxa</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="terminal">
+		<div class="prompt-line">
+			<span class="prompt-user">guest@supahaxxa.github.io</span>:<span class="prompt-dir">~</span>$ whois supahaxxa
+		</div>
+		<div id="output"></div>
+	</div>
+	<script src="script.js"></script>
+</body>
 </html>
